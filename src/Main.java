@@ -1,7 +1,8 @@
 import org.example.BonusMilesService;
+
 public class Main {
     public static void main(String[] args) {
-        BonusMilesService bonus = new BonusMilesService ();
+        BonusMilesService bonus = new BonusMilesService();
 
 //Объявление переменных (стоимость билета и бонуса) и вывод на консоль
         int ticketCost = 123345;
@@ -9,7 +10,7 @@ public class Main {
 
 //Объявление переменной для вывода, расчет и вывод на консоль
         int NumberOfFrequentFlyerMiles;
-        NumberOfFrequentFlyerMiles = bonus.calculate (ticketCost);
-            System.out.println("The bonus amount = " + NumberOfFrequentFlyerMiles + " free miles accrued");
+        NumberOfFrequentFlyerMiles = bonus.calculate(ticketCost);
+        System.out.println("The bonus amount = " + NumberOfFrequentFlyerMiles + " free miles accrued");
     }
 }
